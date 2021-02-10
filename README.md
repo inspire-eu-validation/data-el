@@ -7,7 +7,7 @@ The specification specifies the following conformance classes:
 | Conformance class | Standardization target |
 | ----------------- | ---------------------- |
 | [GML application schemas, Elevation](http://inspire.ec.europa.eu/id/ats/data-el/3.0/el-gml) | INSPIRE spatial data set encoded in GML, Elevation features |
-| [Application Schema, Elevation Base Types](http://inspire.ec.europa.eu/id/ats/data-el/3.0/el-bas-as) | INSPIRE spatial data set |
+| [Application Schema, Elevation Base Types](http://inspire.ec.europa.eu/id/ats/data-el/3.0/el-as) | INSPIRE spatial data set |
 | [Application Schema, Elevation Grid Coverage](http://inspire.ec.europa.eu/id/ats/data-el/3.0/el-cov-as) | INSPIRE spatial data set |
 | [Application Schema, Elevation Vector Elements](http://inspire.ec.europa.eu/id/ats/data-el/3.0/el-vec-as) | INSPIRE spatial data set |
 | [Application Schema, Elevation TIN](http://inspire.ec.europa.eu/id/ats/data-el/3.0/el-tin-as) | INSPIRE spatial data set |
