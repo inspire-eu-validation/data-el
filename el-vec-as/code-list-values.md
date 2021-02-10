@@ -12,6 +12,13 @@ When an attribute has a code list as its type, verify that the values comply wit
 * takes only a value explicitly specified in the INSPIRE code list register or shall take a value that is narrower (i.e. more specific) than those explicitly specified in the application schema when the code list‘s extensibility is 'narrower'.
 * takes values explicitly specified in the INSPIRE code list register when the code list‘s extensibility is 'open' or if a value is not one of the values listed in the code list register check that any extensions do not overlap with the code lists that are defined in Annexes II, III and IV of the Implementing Rule and that all extensions conform to the requirements (This last check is a manual test).
 
+The following check is performed for every feature in the dataset, for the not extensible codelist:
+
+* Check that all the [datumWaterLevel](#datumWaterLevel) element has a xlink:href attribute pointing to a [valid value](#validValue1). If the check fails report [disallowedCodeListValue](#disallowedCodeListValue).
+
+| <a name="validValue1"></a> Valid values for xlink:href attribute of [datumWaterLevel](#datumWaterLevel) element are available in the INSPIRE Registry. | 
+| ---- | 
+| WaterLevelValue: http://inspire.ec.europa.eu/codelist/WaterLevelValue |
 
 The following check is performed for every feature in the dataset, for the 'narrower' codelist:
 
@@ -55,5 +62,6 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression				|Multiplicity       |Voidable
 ---------------------------------------------------------- | -------------------------------|-------------------|---------
+datumWaterLevel <a name="datumWaterLevel"></a> | //schema-element(el-vec:ContourLine)/el-vec:localDepthDatum/el-vec:ChartDatum/el-vec:datumWaterLevel/@xlink:href | 1 (The parent element is optional) | No
 spotElevationType <a name="spotElevationType"></a> | //schema-element(el-vec:SpotElevation)/el-vec:spotElevationType/@xlink:href | 1 | Yes
 breakLineType <a name="breakLineType"></a> | //schema-element(el-vec:BreakLine)/el-vec:breakLineType/@xlink:href | 1 | No
