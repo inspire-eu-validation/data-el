@@ -49,7 +49,7 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 
 | Identifier                                                        | Status   | Test case in [TG DS-EL](#ref_TG_DS_EL)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
-| [Code list values](./code-list-values)  | Draft  | A.1.3, A.6.1  |
+| [Code list values](./code-list-values.md)  | Draft  | A.1.3, A.6.1  |
 | [Constraints](./constraints.md)  | Draft  | A.1.6  |
 | [Specific requirements](./specific-req.md)  | Draft  | A.1.6  |
 
