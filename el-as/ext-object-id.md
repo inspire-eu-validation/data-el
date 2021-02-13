@@ -6,7 +6,7 @@
 
 **Test method**
 
-Check manually that if elevation data is updated based on new source data, the updated objects received a new external object identifier.
+Check manually that if elevation data has been updated based on new source data, the updated objects received a new external object identifier.
 
 
 **Reference(s)**: 

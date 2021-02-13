@@ -1,6 +1,6 @@
 # Elevation - Data provision requirements
 
-**Purpose**: Verify that the dataset is provided in the right application schema, according to the following requirements:
+**Purpose**: Verify that the dataset is provided with the right application schema, according to the following requirements:
 
 * Provision of Land Elevation Data: Spatial data sets describing the morphology of land elevation shall be made available at least using the spatial object types included in the package Elevation – Grid Coverage.
 

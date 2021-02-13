@@ -1,6 +1,6 @@
-# Constraints - DRAFT
+# Constraints
 
-**Purpose**: Verify that:
+**Purpose**: Verify that the features provided in the dataset adhere to the constraints specified in the INSPIRE application schema.
 
 * Constraints of the spatial object type SpotElevation:
 	* The dimension of the property value coordinate shall be 1
@@ -14,15 +14,26 @@
 
 **Test method**
 
-The following checks are performed for every feature in the dataset.
+The following checks are performed for every feature in the dataset:
+
+* Check that the [dimension](#dimensionSE) of the property value coordinate, of the SpotElevation feature type, is 1 (OCL: "inv: propertyValue.dimension=1").
+
+* Check that the [dimension](#dimensionCL) of the property value coordinate, of the ContourLine feature type, is 1 (OCL: "inv: propertyValue.dimension=1").
+
+The following checks shall be manually performed for every feature in the dataset:
+
+* Check that the property value of the SpotElevation feature type is expressed referring to a vertical coordinate reference system.
+
+* Check that the property value of the ContourLine feature type is expressed referring to a vertical coordinate reference system.
 
 
 **Reference(s)**: 
 
 * [TG DS Template](./README.md#ref_TG_DS_tmpl) IR requirement Article 4 (2)
-* [TG DS-EL](./README.md#ref_TG_DS_EL) 5.5.2.1.2., 5.5.2.2.1.
+* [TG DS-EL](./README.md#ref_TG_DS_EL) 5.6.2.1.2.; 5.6.2.1.5.
+* [IR-ISDSS](./README.md#ref_IR-ISDSS) Annex III, Sections 1.5.1.2. and 1.5.1.3.
 
-**Test type**: Automated
+**Test type**: Automated + Manual
 
 **Notes** 
 
@@ -40,5 +51,5 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression                     |Multiplicity       |Voidable
 ---------------------------------------------------------- | ------------------------------------- | ------------------|----------
-LandCoverUnit geometry <a name="geometries"></a> | //schema-element(el-tin:LandCoverUnit)/el-tin:geometry/gml:Surface <br> //schema-element(el-tin:LandCoverUnit)/el-tin:geometry/gml:Point <br> //schema-element(el-tin:LandCoverDataset)/el-tin:member/el-tin:LandCoverUnit/el-tin:geometry/gml:Surface <br> //schema-element(el-tin:LandCoverDataset)/el-tin:member/el-tin:LandCoverUnit/el-tin:geometry/gml:Point | 1 | No
-coveredPercentage <a name="coveredPercentage"></a> | //schema-element(el-tin:LandCoverUnit)/el-tin:landCoverObservation/el-tin:LandCoverObservation/el-tin:mosaic/el-tin:LandCoverValue/el-tin:coveredPercentage <br> //schema-element(el-tin:LandCoverDataset)/el-tin:member/el-tin:LandCoverUnit/el-tin:landCoverObservation/el-tin:LandCoverObservation/el-tin:mosaic/el-tin:LandCoverValue/el-tin:coveredPercentage | 1 | Yes
+dimension SpotElevation <a name="dimensionSE"></a> | //schema-element(el-vec:SpotElevation)/el-vec:propertyValue | 1 | No
+dimension ContourLine <a name="dimensionCL"></a> | //schema-element(el-vec:ContourLine)/el-vec:propertyValue | 1 | No

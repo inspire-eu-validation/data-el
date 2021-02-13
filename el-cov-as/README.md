@@ -36,14 +36,16 @@ The following abbreviations are used in the test text for referring to external 
 Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
 TG DS-EL <a name="ref_TG_DS_EL"></a>   | [INSPIRE Data Specification on Elevation – Technical Guidelines version 3.0](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_EL_v3.0.pdf)
+TG DS-EL-corr <a name="ref_TG_DS_EL_corr"></a>   | [Corrigenda to the INSPIRE Data Specification on Elevation – Technical Guidelines version 3.0](https://inspire.ec.europa.eu/file/1609/download?token=9WROnWt0)
+IR-ISDSS <a name="ref_IR-ISDSS"></a>   | [Commission Regulation (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services](https://eur-lex.europa.eu/eli/reg/2010/1089/2014-12-31)
 TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template version 3.0rc3](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_Template_v3.0rc3.pdf)
 
 ## Test Cases
 
 | Identifier                                                        | Status   | Test case in [TG DS-EL](#ref_TG_DS_EL)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
-| [Constraints](./constraints.md)  | Draft  | A.1.6  |
-| [Specific requirements](./specific-req.md)  | Draft  | A.1.6  |
+| [Constraints](./constraints.md)  | ready for review   | A.1.6  |
+| [Specific requirements](./specific-req.md)  | ready for review   | A.1.6  |
 
 
 ## XML namespace prefixes <a name="namespaces"></a>
