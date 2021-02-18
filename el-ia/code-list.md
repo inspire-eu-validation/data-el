@@ -22,7 +22,8 @@ This data theme currently has the following empty code list:
 
 **Notes**
 
-The following values are also accepeted, even though they are not available in the INSPIRE Registry:
+The SpotElevationClassValue is an "externally governed" codelist and the values are not available in a registry, but are documented in a pdf.
+For this reason, the following values are also accepeted because they are suggested in the [TG DS-EL](./README.md#ref_TG_DS_EL) even if they are not available in the INSPIRE Registry:
 
 Identifier | Labels
 ------------------------------ | -------------------------------------------
