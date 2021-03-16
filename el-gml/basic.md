@@ -30,4 +30,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                          |  XPath expression
 ----------------------------------------------------- | ------------------------------------------------------------------
-features <a name="features"></a>   |  //schema-element(el-cov:ElevationGridCoverage) <br> //schema-element(el-vec:Breakline) <br> //schema-element(el-vec:ContourLine) <br> //schema-element(el-vec:IsolatedArea) <br> //schema-element(el-vec:SpotElevation) <br> //schema-element(el-vec:VoidArea) <br> //schema-element(el-tin:ElevationTIN)
+features <a name="features"></a>   |  //schema-element(el-cov:ElevationGridCoverage) <br> //schema-element(el-vec:BreakLine) <br> //schema-element(el-vec:ContourLine) <br> //schema-element(el-vec:IsolatedArea) <br> //schema-element(el-vec:SpotElevation) <br> //schema-element(el-vec:VoidArea) <br> //schema-element(el-tin:ElevationTIN)
