@@ -10,9 +10,9 @@
 
 * Validate each document against the latest INSPIRE official schema(s), using strict XML schema validation. 
   The official schemas for this data theme are:
-  *  ElevationGridCoverage: https://inspire.ec.europa.eu/schemas/el-cov/4.0/ElevationGridCoverage.xsd
-  *  ElevationVectorElements: https://inspire.ec.europa.eu/schemas/el-vec/4.0/ElevationVectorElements.xsd
-  *  ElevationTIN: https://inspire.ec.europa.eu/schemas/el-tin/4.0/ElevationTin.xsd
+  *  ElevationGridCoverage: https://inspire.ec.europa.eu/schemas/el-cov/5.0/ElevationGridCoverage.xsd
+  *  ElevationVectorElements: https://inspire.ec.europa.eu/schemas/el-vec/5.0/ElevationVectorElements.xsd
+  *  ElevationTIN: https://inspire.ec.europa.eu/schemas/el-tin/5.0/ElevationTin.xsd
 
 **Reference(s)**: 
 
